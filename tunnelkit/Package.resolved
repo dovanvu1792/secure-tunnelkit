@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "OpenSSL",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL",
+      "state" : {
+        "revision" : "fc1a97a787482af67514d4630a7184480fea423e",
+        "version" : "3.3.3000"
+      }
+    },
+    {
+      "identity" : "swiftybeaver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyBeaver/SwiftyBeaver",
+      "state" : {
+        "revision" : "12b5acf96d98f91d50de447369bd18df74600f1a",
+        "version" : "1.9.6"
+      }
+    },
+    {
+      "identity" : "wireguard-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/passepartoutvpn/wireguard-apple",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "b79f0f150356d8200a64922ecf041dd020140aa0"
+      }
+    }
+  ],
+  "version" : 2
+}
