@@ -44,7 +44,7 @@ let package = Package(
         .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: "3.3.3000"),
 //        .package(url: "https://git.zx2c4.com/wireguard-apple", .exact: Version("1.0.15-26")),
 //        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", exact: Version("1.0.17")),
-        .package(url: "https://github.com/dovanvu1792/secure-wireguard-apple", revision: "d65e2080ff7d930988ceaa9754edf191b288ff95")
+        .package(url: "https://github.com/dovanvu1792/wireguard-apple", revision: "43d8a66304d223d4d234006a02f18e64b1b6350c")
 //        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", branch: "develop")
 //        .package(name: "WireGuardKit", path: "../wireguard-apple")
     ],
@@ -121,7 +121,7 @@ let package = Package(
             dependencies: [
                 "__TunnelKitUtils",
                 "TunnelKitCore",
-                .product(name: "WireGuardKit", package: "secure-wireguard-apple"),
+                .product(name: "WireGuardKit", package: "wireguard-apple"),
                 "SwiftyBeaver"
             ]),
         .target(
