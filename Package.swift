@@ -121,7 +121,7 @@ let package = Package(
             dependencies: [
                 "__TunnelKitUtils",
                 "TunnelKitCore",
-                .product(name: "WireGuardKit", package: "wireguard-apple"),
+                .product(name: "WireGuardKit", package: "secure-wireguard-apple"),
                 "SwiftyBeaver"
             ]),
         .target(
